@@ -1,0 +1,68 @@
+$primary-color: purple;
+$secondary-color: plum;
+$grey: #ccc;
+$primary-size: 30px;
+
+body,
+html {
+    height: auto;
+    margin: 0;
+}
+
+.bg {
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/06/Free-Download-Desktop-Book-HD-Wallpapers.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    background-color: $primary-color;
+    text-align: center;
+    padding: 15px;
+    border: 10px solid $grey;
+    border-radius: 1px;
+    color: $grey
+}
+
+h2 {
+    color: $secondary-color;
+    text-align: center;
+
+}
+
+.cs {
+    color: $primary-color;
+    text-align: center;
+    font-size: $primary-size;
+}
+
+.book {
+    width: 750px;
+    height: 250px;
+    background-color: $secondary-color;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    margin-top: 20px;
+
+}
+
+span {
+    color: rgb(73, 84, 200);
+    text-align: center;
+    font-size: 40px;
+    padding-left: 20px;
+}
+
+img {
+    vertical-align: middle;
+
+}
+
+.footer {
+    text-align: right;
+    font-size: $primary-size;
+}
